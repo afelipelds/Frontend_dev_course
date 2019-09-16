@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Gayathri-regular';
+  src: url('../fonts/Gayathri/gayathri-regular-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/Gayathri/gayathri-regular-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/Gayathri/Gayathri-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'Gayathri-thin';
+  src: url('../fonts/Gayathri/gayathri-thin-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/Gayathri/gayathri-thin-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/Gayathri/Gayathri-Thin.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'RedHat-regular';
+  src: url('../fonts/Red_Hat_Display/RedHatDisplay-Regular-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/Red_Hat_Display/RedHatDisplay-Regular-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/Red_Hat_Display/RedHatDisplay-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+}

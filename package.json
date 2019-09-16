@@ -1,0 +1,14 @@
+{
+  "name": "FrontenDev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run main && npm run util",
+    "util": "sass --watch sass/utils.scss:public/css/utils.css",
+    "main": "sass --watch sass/style.scss:public/css/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
