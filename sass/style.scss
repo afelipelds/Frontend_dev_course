@@ -339,6 +339,8 @@ body {
 .Error {
   height: calc(100vh - 100px);
   color: $white;
+  flex-flow: column nowrap;
+
   &__container {
     text-align: center;
     margin: auto;
@@ -378,6 +380,18 @@ body {
       animation: noise-animation-2 6s infinite linear alternate-reverse;
     }
   }
+  .return {
+    @include center-things;
+    a {
+      color: $white-white;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
   @keyframes noise-animation-2{
     $steps:20;
     @for $i from 0 through $steps{
@@ -394,20 +408,11 @@ body {
       }
     }
   }
+  
 
   @include center-things;
 }
-.return {
-  @include center-things;
-  a {
-    color: $white-white;
-    font-weight: bold;
-    text-decoration: none;
-  }
-  &:hover {
-    text-decoration: underline;
-  }
-}
+
 /************************** footer */
 .Footer {
   width: 100%;
